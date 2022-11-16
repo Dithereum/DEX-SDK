@@ -1,8 +1,8 @@
 {
-  "name": "@etherauthority/dithereumchain-dexswap-sdk",
+  "name": "@etherauthority/swap-sdk",
   "license": "MIT",
-  "version": "1.0.1",
-  "description": "🛠 An SDK for building applications on top of ditheeum.",
+  "version": "2.4.3",
+  "description": "🛠 An SDK for building applications on top of Dithereum.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -13,8 +13,8 @@
     "url": "git+https://github.com/Dithereum/DEX-SDK.git"
   },
   "keywords": [
-    "ditheeum",
-    "swap-sdk"
+    "pancakeswap",
+    "bsc"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -25,19 +25,21 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
+    "@sardischain/sardisswap-sdk": "^1.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
-    "jsbi": "^3.1.1",
+    "dithereumchain-dexswap-sdk": "^1.0.0",
+    "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",
     "toformat": "^2.0.0"
   },
   "peerDependencies": {
-    "@ethersproject/address": "^5.0.0-beta",
-    "@ethersproject/contracts": "^5.0.0-beta",
-    "@ethersproject/networks": "^5.0.0-beta",
-    "@ethersproject/providers": "^5.0.0-beta",
-    "@ethersproject/solidity": "^5.0.0-beta"
+    "@ethersproject/address": "^5.0.0",
+    "@ethersproject/contracts": "^5.0.0",
+    "@ethersproject/networks": "^5.0.0",
+    "@ethersproject/providers": "^5.0.0",
+    "@ethersproject/solidity": "^5.0.0"
   },
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
@@ -59,9 +61,9 @@
     "singleQuote": true
   },
   "bugs": {
-    "url": "https://github.com/Dithereum/DEX-SDK/issues"
+    "url": "https://github.com/Dithereum/DEX-SDK/blob/main/README.md"
   },
-  "homepage": "https://github.com/Dithereum/DEX-SDK#readme",
+  "homepage": "https://github.com/Dithereum/DEX-SDK/blob/main/README.md",
   "directories": {
     "test": "test"
   },
