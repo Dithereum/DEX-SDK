@@ -1,7 +1,7 @@
 {
   "name": "@etherauthority/swap-sdk",
   "license": "MIT",
-  "version": "2.4.3",
+  "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of Dithereum.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -21,14 +21,11 @@
     "lint": "tsdx lint src test",
     "build": "tsdx build",
     "start": "tsdx watch",
-    "test": "tsdx test",
-    "prepublishOnly": "tsdx build"
+    "test": "tsdx test"
   },
   "dependencies": {
-    "@sardischain/sardisswap-sdk": "^1.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
-    "dithereumchain-dexswap-sdk": "^1.0.0",
     "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",
